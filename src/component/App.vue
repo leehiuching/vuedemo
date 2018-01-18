@@ -1,15 +1,17 @@
 <template>
-  <div>测试
+  <div>
       <router-view></router-view>
-  </div>
-  
+  </div> 
 </template>
 <script>
 export default {
   
 }
 </script>
-<style>
-
+<style scoped>
+div {
+  height: 100%;
+  background-color: #267cb7;
+}
 </style>
 
